@@ -1,0 +1,12 @@
+{
+   "posts": [
+      {
+         "id": 1638550889159,
+         "title": "stackoverflow",
+         "content": "This was needed back in the old days because we then used IAttributes in the code and TypeScript wouldn't have known what to do with it otherwise. But after removing the import statement, and converting IAttributes to ng.IAttributes those two JavaScript lines disappeared - and so did the error message.",
+         "author": 1638533163506,
+         "rating": 0,
+         "readingTime": "0.3"
+      }
+   ]
+}

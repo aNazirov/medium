@@ -1,0 +1,27 @@
+{
+   "users": [
+      {
+         "id": 1638520568506,
+         "email": "test@mail.ru",
+         "password": "$2a$10$nbMK7zsEncYof3lE2LHspeAsC8GlI27M4f96AGRmGy8B5AH.ATk5.",
+         "posts": [],
+         "rating": 0
+      },
+      {
+         "id": 1638532997837,
+         "email": "test2@mail.ru",
+         "password": "$2a$10$YiUWGS2cD380L2JS3bp.0u8jFFY9pCCg443uhItYDIk72A/agxava",
+         "posts": [],
+         "rating": 0
+      },
+      {
+         "id": 1638533163506,
+         "email": "test3@mail.ru",
+         "password": "$2a$10$q9f9r4KSbjtETR.ybFmmzO9PpghhTkXmltnmH0cT0uh47nRC139Rm",
+         "posts": [
+            1638550889159
+         ],
+         "rating": 0
+      }
+   ]
+}
