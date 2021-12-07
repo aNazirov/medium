@@ -4,7 +4,7 @@ import morgan from 'morgan'
 import passport from 'passport'
 import { AuthRouter, PostRouter, UserRouter } from './routes';
 import passportStatic from './middleware/passport';
-import { clientErrorHandler, errorHandler, logErrors } from './utils';
+import { clientErrorHandler, errorHandler, errorNotFound, logErrors } from './utils';
 
 const app = express();
 
@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 app.use('/auth', AuthRouter.default);
 app.use('/post', PostRouter.default);
 app.use('/user', UserRouter.default);
+app.use(errorNotFound);
 
 app.use(logErrors);
 app.use(clientErrorHandler);
